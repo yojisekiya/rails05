@@ -8,6 +8,9 @@
     <%= form.text_area :comment, required: false %>
   </p>
   <p>
+    <%= form.file_field :image, accept: "image/png,image/jpeg,image/gif" %>
+  </p>
+  <p>
     <%= form.submit "送信" %>
   </p>
 <% end %>
