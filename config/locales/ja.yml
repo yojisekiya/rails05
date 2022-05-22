@@ -6,6 +6,9 @@ ja:
       food:
         name: 料理名
         comment: コメント
+      like:
+        user: ユーザー
+        post: 投稿
   time:
     formats:
       default: '%Y年%-m月%-d日(%a) %-H時%-M分%-S秒'
