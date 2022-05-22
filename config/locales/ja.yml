@@ -8,7 +8,11 @@ ja:
         comment: コメント
       like:
         user: ユーザー
+        food: 料理
         post: 投稿
+  errors:
+    messages:
+      taken: は同じ投稿に2回以上いいねはできません
   time:
     formats:
       default: '%Y年%-m月%-d日(%a) %-H時%-M分%-S秒'
